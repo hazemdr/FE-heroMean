@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class DataService {
-  url = 'http://127.0.0.1:3000/hero/';
+  url = 'https://be-app-hero.onrender.com/hero/';
 
   constructor(private http: HttpClient) {}
 
