@@ -16,7 +16,7 @@ export class AjoutComponent {
   hero = {
     name: '',
     power: 0,
-    image: ''
+    
   }
 
   constructor( private _data: DataService, private router: Router ){}
